@@ -1,3 +1,7 @@
+--
+-- luacheck: globals onInit onTabletopInit onClose registerChatOptions customAddChatMessage customDeliverChatMessage customOnReceiveMessage
+-- luacheck: globals customOnDeliverMessage customCreateEntry replaceInspirationWidget changeInspirationWidget changeChat changeIconTheme
+-- luacheck: globals Comm changeFontTheme changeGMIcon addFontTheme addIconTheme addGMPortrait printErrors
 local sIcon = nil
 local sFont = nil
 local sGMIcon = nil
